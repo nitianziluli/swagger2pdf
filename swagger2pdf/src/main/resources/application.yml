@@ -1,0 +1,17 @@
+spring:
+    profiles.active: dev
+    application.name: swagger2pdf
+    jackson.serialization.indent_output: true
+
+server:
+    port: 9080
+
+management:
+    contextPath: /management
+    add-application-context-header: false
+
+info:
+    name: ${spring.application.name}
+    description: swagger2pdf
+    environment: ${spring.profiles.active}
+    version: 1.0.0
