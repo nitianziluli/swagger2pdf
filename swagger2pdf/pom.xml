@@ -217,7 +217,7 @@
                         <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
                         <swagger2markup.pathsGroupedBy>TAGS</swagger2markup.pathsGroupedBy>
                         <!-- 生成请求和响应的样例json -->
-                        <swagger2markup.generatedExamplesEnabled>true</swagger2markup.generatedExamplesEnabled>
+                        <!-- <swagger2markup.generatedExamplesEnabled>true</swagger2markup.generatedExamplesEnabled> -->
 
                         <swagger2markup.extensions.dynamicOverview.contentPath>${project.basedir}/src/docs/asciidoc/extensions/overview</swagger2markup.extensions.dynamicOverview.contentPath>
                         <swagger2markup.extensions.dynamicDefinitions.contentPath>${project.basedir}/src/docs/asciidoc/extensions/definitions</swagger2markup.extensions.dynamicDefinitions.contentPath>
