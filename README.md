@@ -1,8 +1,14 @@
 # swagger2pdf
 
-使用springBoot+springFox+swagger2markup+asciidoctorj-pdf，生成HTML和PDF格式的接口文档，也解决了PDF文档中文显示为空白的问题。
+使用springBoot + springFox + swagger2markup + asciidoctorj-pdf，生成HTML和PDF格式的接口文档，也解决了PDF文档中文显示为空白的问题。
 
 关于本项目的一些其他信息，可以看我的[这篇博客](https://blog.csdn.net/u013719669/article/details/80998225)。
+
+# 实现原理：
+
+1. 先利用`SpringFox`库生成`RESTful API`
+2. 再利用`Swagger2Markup` Maven插件生成`asciidoc`文档
+3. 最后利用`asciidoctor` Maven插件生成 html 或 pdf 文件
 
 # 如何使用本项目
 
