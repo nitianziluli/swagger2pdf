@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:34:14 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566455654296
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact com.google.code.findbugs\:jsr305\:pom\:2.0.1 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455653895
