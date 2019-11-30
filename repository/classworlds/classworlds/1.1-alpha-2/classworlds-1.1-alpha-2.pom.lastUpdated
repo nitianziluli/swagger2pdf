@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:33:47 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566455627122
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact classworlds\:classworlds\:pom\:1.1-alpha-2 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455626237
