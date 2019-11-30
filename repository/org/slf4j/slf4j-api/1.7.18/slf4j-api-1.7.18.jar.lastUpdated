@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:18:52 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871932620
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.slf4j\:slf4j-api\:jar\:1.7.18 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/slf4j/slf4j-api/1.7.18/slf4j-api-1.7.18.jar. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871852191
