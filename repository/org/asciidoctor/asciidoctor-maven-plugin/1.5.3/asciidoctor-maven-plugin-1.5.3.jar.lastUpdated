@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:32:21 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566455541790
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.asciidoctor\:asciidoctor-maven-plugin\:jar\:1.5.3 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/asciidoctor/asciidoctor-maven-plugin/1.5.3/asciidoctor-maven-plugin-1.5.3.jar. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455541045

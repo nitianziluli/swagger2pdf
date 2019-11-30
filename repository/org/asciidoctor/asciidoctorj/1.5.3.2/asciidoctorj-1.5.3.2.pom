@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.asciidoctor</groupId>
+  <artifactId>asciidoctorj</artifactId>
+  <version>1.5.3.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.jruby</groupId>
+      <artifactId>jruby-complete</artifactId>
+      <version>1.7.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.beust</groupId>
+      <artifactId>jcommander</artifactId>
+      <version>1.35</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>AsciidoctorJ</name>
+  <description>AsciidoctorJ provides Java bindings for the Asciidoctor RubyGem (asciidoctor) using JRuby.</description>
+  <url>https://github.com/asciidoctor/asciidoctorj</url>
+  <inceptionYear>2013</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/asciidoctor/asciidoctorj/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/asciidoctor/asciidoctorj</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>asotobu</id>
+      <name>Alex Soto Bueno</name>
+      <email>asotobu@gmail.com</email>
+      <timezone>1</timezone>
+      <roles>
+        <role>Project Lead</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>mojavelinux</id>
+      <name>Dan Allen</name>
+      <email>dan.j.allen@gmail.com</email>
+      <timezone>-7</timezone>
+      <roles>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>abelsromero</id>
+      <name>Abel Salgado Romero</name>
+      <email>abelromero@gmail.com</email>
+      <timezone>1</timezone>
+      <roles>
+        <role>Contributor</role>
+      </roles>
+    </developer>
+  </developers>
+</project>
