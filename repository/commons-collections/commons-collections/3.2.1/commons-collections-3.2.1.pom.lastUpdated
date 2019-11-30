@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:16:28 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871788876
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact commons-collections\:commons-collections\:pom\:3.2.1 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871788001
