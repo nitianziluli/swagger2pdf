@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:19:02 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871942685
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact com.beust\:jcommander\:pom\:1.35 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/com/beust/jcommander/1.35/jcommander-1.35.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871941827
