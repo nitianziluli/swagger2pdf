@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.swagger2markup</groupId>
+  <artifactId>swagger2markup-import-files-ext</artifactId>
+  <version>1.2.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.swagger2markup</groupId>
+      <artifactId>swagger2markup</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.swagger2markup</groupId>
+      <artifactId>swagger2markup-extension-commons</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>swagger2markup-extensions</name>
+  <packaging>jar</packaging>
+  <url>https://github.com/Swagger2Markup/swagger2markup</url>
+  <description>A Swagger to Markup (AsciiDoc and Markdown) converter.</description>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/Swagger2Markup/swagger2markup/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/Swagger2Markup/swagger2markup.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>RobWin</id>
+      <name>Robert Winkler</name>
+    </developer>
+  </developers>
+</project>

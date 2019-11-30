@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.robwin</groupId>
+  <artifactId>markup-document-builder</artifactId>
+  <version>0.1.5</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.12</version>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.11</version>
+      </dependency>
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.1.2</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <name>markup-document-builder</name>
+  <packaging>jar</packaging>
+  <url>https://github.com/RobWin/markup-document-builder</url>
+  <description>A Markup (Markdown, AsciiDoc) document builder.</description>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/RobWin/markup-document-builder/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/RobWin/markup-document-builder.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>RobWin</id>
+      <name>Robert Winkler</name>
+    </developer>
+  </developers>
+</project>

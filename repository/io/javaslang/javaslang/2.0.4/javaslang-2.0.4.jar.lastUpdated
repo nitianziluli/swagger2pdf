@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 15:33:23 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566459203677
+https\://repo.maven.apache.org/maven2/.lastUpdated=1566458773275
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact io.javaslang\:javaslang\:jar\:2.0.4 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/io/javaslang/javaslang/2.0.4/javaslang-2.0.4.jar. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566458764322
