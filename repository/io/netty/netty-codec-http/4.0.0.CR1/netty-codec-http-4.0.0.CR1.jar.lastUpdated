@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:21:09 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570872069696
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact io.netty\:netty-codec-http\:jar\:4.0.0.CR1 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/io/netty/netty-codec-http/4.0.0.CR1/netty-codec-http-4.0.0.CR1.jar. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871993289
