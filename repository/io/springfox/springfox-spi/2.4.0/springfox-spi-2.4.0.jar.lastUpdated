@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 15:33:27 CST 2019
+https\://repo.maven.apache.org/maven2/.lastUpdated=1566459207031
+http\://jcenter.bintray.com/.error=Could not transfer artifact io.springfox\:springfox-spi\:jar\:2.4.0 from/to jcentral (http\://jcenter.bintray.com)\: Failed to transfer http\://jcenter.bintray.com/io/springfox/springfox-spi/2.4.0/springfox-spi-2.4.0.jar. Error code 504, Gateway Time-out
+@default-jcentral-http\://jcenter.bintray.com/.lastUpdated=1566459202948
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact io.springfox\:springfox-spi\:jar\:2.4.0 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/io/springfox/springfox-spi/2.4.0/springfox-spi-2.4.0.jar. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566459204413
