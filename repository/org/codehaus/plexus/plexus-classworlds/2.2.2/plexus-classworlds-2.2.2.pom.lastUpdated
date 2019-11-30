@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:34:50 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566455690130
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.codehaus.plexus\:plexus-classworlds\:pom\:2.2.2 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455689672

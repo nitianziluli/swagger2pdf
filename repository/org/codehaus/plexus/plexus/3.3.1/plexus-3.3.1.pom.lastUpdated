@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:34:35 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566455675161
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.codehaus.plexus\:plexus\:pom\:3.3.1 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455673676
