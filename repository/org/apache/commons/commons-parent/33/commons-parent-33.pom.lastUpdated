@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:36:25 CST 2019
+https\://repo.maven.apache.org/maven2/.lastUpdated=1566455785376
+http\://jcenter.bintray.com/.error=Could not transfer artifact org.apache.commons\:commons-parent\:pom\:33 from/to jcentral (http\://jcenter.bintray.com)\: C\:\\Users\\\u9006\u5929\u5B50\u9646\u79BB\\.m2\\repository\\org\\apache\\commons\\commons-parent\\33\\aether-99f8a011-4e76-4b75-a05a-a30762011626-commons-parent-33.pom-in-progress (\u7CFB\u7EDF\u627E\u4E0D\u5230\u6307\u5B9A\u7684\u6587\u4EF6\u3002)
+@default-jcentral-http\://jcenter.bintray.com/.lastUpdated=1566455782424
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.apache.commons\:commons-parent\:pom\:33 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/apache/commons/commons-parent/33/commons-parent-33.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455782654
