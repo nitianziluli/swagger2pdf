@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:16:05 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871765730
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact com.fasterxml\:oss-parent\:pom\:11 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/com/fasterxml/oss-parent/11/oss-parent-11.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871764875
