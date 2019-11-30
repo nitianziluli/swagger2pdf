@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 15:28:49 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566458929232
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.apache.maven.doxia\:doxia\:pom\:1.0-alpha-7 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566458928601
