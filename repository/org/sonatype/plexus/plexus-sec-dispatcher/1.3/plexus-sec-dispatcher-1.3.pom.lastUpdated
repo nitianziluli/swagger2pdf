@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 14:33:36 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566455616006
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.sonatype.plexus\:plexus-sec-dispatcher\:pom\:1.3 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566455613478

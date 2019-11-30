@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 15:30:37 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566459037610
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.sonatype.spice\:spice-parent\:pom\:10 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/sonatype/spice/spice-parent/10/spice-parent-10.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566459035182

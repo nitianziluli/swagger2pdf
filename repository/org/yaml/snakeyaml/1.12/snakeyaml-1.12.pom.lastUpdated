@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:15:58 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871758875
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.yaml\:snakeyaml\:pom\:1.12 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/yaml/snakeyaml/1.12/snakeyaml-1.12.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871758005
