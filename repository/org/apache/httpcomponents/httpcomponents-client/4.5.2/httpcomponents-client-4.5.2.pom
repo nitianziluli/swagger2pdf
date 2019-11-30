@@ -1,0 +1,175 @@
+rue</xincludeSupported>
+          <foCustomization>src/docbkx/resources/xsl/fopdf.xsl</foCustomization>
+          <htmlCustomization>src/docbkx/resources/xsl/html_chunk.xsl</htmlCustomization>
+          <htmlStylesheet>css/hc-tutorial.css</htmlStylesheet>
+          <entities>
+            <entity>
+              <name>version</name>
+              <value>${project.version}</value>
+            </entity>
+          </entities>
+          <postProcess>
+            <copy todir="target/site/tutorial/html" failonerror="false">
+              <fileset dir="target/docbkx/html/index">
+                <include name="**/*.html" />
+              </fileset>
+            </copy>
+            <copy todir="target/site/tutorial/html" failonerror="false">
+              <fileset dir="src/docbkx/resources">
+                <include name="**/*.css" />
+                <include name="**/*.png" />
+                <include name="**/*.gif" />
+                <include name="**/*.jpg" />
+              </fileset>
+            </copy>
+            <copy file="target/docbkx/pdf/index.pdf" tofile="target/site/tutorial/pdf/httpclient-tutorial.pdf" failonerror="false" />
+          </postProcess>
+        </configuration>
+      </plugin>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>copy-resources</id>
+              <phase>pre-site</phase>
+              <goals>
+                <goal>copy-resources</goal>
+              </goals>
+              <configuration>
+                <outputDirectory>${basedir}/target/site/examples</outputDirectory>
+                <resources>
+                  <resource>
+                    <directory>src/examples</directory>
+                    <filtering>false</filtering>
+                  </resource>
+                </resources>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>2.9.1</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>hc-stylecheck</artifactId>
+            <version>${hc.stylecheck.version}</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <encoding>UTF-8</encoding>
+        </configuration>
+        <executions>
+          <execution>
+            <id>validate-main</id>
+            <phase>validate</phase>
+            <configuration>
+              <configLocation>hc-stylecheck/default.xml</configLocation>
+              <headerLocation>hc-stylecheck/asl2.header</headerLocation>
+              <consoleOutput>true</consoleOutput>
+              <failsOnError>true</failsOnError>
+              <linkXRef>false</linkXRef>
+              <sourceDirectory>${basedir}/src/main</sourceDirectory>
+            </configuration>
+            <goals>
+              <goal>checkstyle</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>validate-test</id>
+            <phase>validate</phase>
+            <configuration>
+              <configLocation>hc-stylecheck/default.xml</configLocation>
+              <headerLocation>hc-stylecheck/asl2.header</headerLocation>
+              <consoleOutput>true</consoleOutput>
+              <failsOnError>true</failsOnError>
+              <linkXRef>false</linkXRef>
+              <sourceDirectory>${basedir}/src/test</sourceDirectory>
+            </configuration>
+            <goals>
+              <goal>checkstyle</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>validate-examples</id>
+            <phase>validate</phase>
+            <configuration>
+              <configLocation>hc-stylecheck/minimal.xml</configLocation>
+              <headerLocation>hc-stylecheck/asl2.header</headerLocation>
+              <consoleOutput>true</consoleOutput>
+              <failsOnError>true</failsOnError>
+              <linkXRef>false</linkXRef>
+              <sourceDirectory>${basedir}/src/examples</sourceDirectory>
+            </configuration>
+            <goals>
+              <goal>checkstyle</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>clirr-maven-plugin</artifactId>
+        <version>${hc.clirr.version}</version>
+        <configuration>
+          <comparisonVersion>${api.comparison.version}</comparisonVersion>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <version>0.11</version>
+        <executions>
+          <execution>
+            <phase>verify</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <excludes>
+            <exclude>src/docbkx/resources/**</exclude>
+            <exclude>src/test/resources/*.truststore</exclude>
+            <exclude>.checkstyle</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <reporting>
+    <plugins>
+
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>${hc.project-info.version}</version>
+        <inherited>false</inherited>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>dependency-management</report>
+              <report>issue-tracking</report>
+              <report>license</report>
+              <report>scm</report>
+              <report>summary</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>clirr-maven-plugin</artifactId>
+        <version>${hc.clirr.version}</version>
+        <configuration>
+          <comparisonVersion>${api.comparison.version}</comparisonVersion>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </reporting>
+
+</project>
