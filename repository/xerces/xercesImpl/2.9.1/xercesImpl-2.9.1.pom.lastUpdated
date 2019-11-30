@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:19:25 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871965931
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact xerces\:xercesImpl\:pom\:2.9.1 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871965094
