@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:18:52 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1570871932715
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact com.fasterxml.jackson.core\:jackson-databind\:jar\:2.4.5 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/com/fasterxml/jackson/core/jackson-databind/2.4.5/jackson-databind-2.4.5.jar. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1570871852228

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>jackson-parent</artifactId>
+    <groupId>com.fasterxml.jackson</groupId>
+    <version>2.6.2</version>
+    <relativePath>../pom.xml/pom.xml</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fasterxml.jackson.module</groupId>
+  <artifactId>jackson-module-afterburner</artifactId>
+  <packaging>bundle</packaging>
+  <name>Jackson-module-Afterburner</name>
+  <version>2.6.5</version>
+  <description>Jackson (https://github.com/FasterXML/jackson) extension module
+used to enhance access functionality using bytecode generation.</description>
+  <url>http://wiki.fasterxml.com/JacksonHome</url>
+  <scm>
+    <connection>scm:git:git@github.com:FasterXML/jackson-module-afterburner.git</connection>
+    <developerConnection>scm:git:git@github.com:FasterXML/jackson-module-afterburner.git</developerConnection>
+    <tag>jackson-module-afterburner-2.6.5</tag>
+    <url>http://github.com/FasterXML/jackson-module-afterburner</url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
+        <artifactId>replacer</artifactId>
+        <executions>
+          <execution>
+            <id>process-packageVersion</id>
+            <phase>generate-sources</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${version.plugin.surefire}</version>
+        <configuration>
+          <excludes>
+            <exclude>com/fasterxml/jackson/**/failing/*.java</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.3</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                <includes>
+                  <include>org.ow2.asm:asm</include>
+                </includes>
+              </artifactSet>
+              <relocations>
+                <relocation>
+                  <pattern>org.objectweb.asm</pattern>
+                  <shadedPattern>com.fasterxml.jackson.module.afterburner.asm</shadedPattern>
+                </relocation>
+              </relocations>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.6.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.6.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.6.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>hamcrest-core</artifactId>
+          <groupId>org.hamcrest</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+  <properties>
+    <osgi.import>com.fasterxml.jackson.core
+,com.fasterxml.jackson.core.io
+,com.fasterxml.jackson.core.type
+,com.fasterxml.jackson.core.util
+,com.fasterxml.jackson.databind
+,com.fasterxml.jackson.databind.introspect
+,com.fasterxml.jackson.databind.module
+,com.fasterxml.jackson.databind.deser
+,com.fasterxml.jackson.databind.deser.impl
+,com.fasterxml.jackson.databind.deser.std
+,com.fasterxml.jackson.databind.jsontype
+,com.fasterxml.jackson.databind.ser
+,com.fasterxml.jackson.databind.ser.impl
+,com.fasterxml.jackson.databind.util
+,org.objectweb.asm;resolution:=optional</osgi.import>
+    <packageVersion.dir>com/fasterxml/jackson/module/afterburner</packageVersion.dir>
+    <packageVersion.package>${project.groupId}.afterburner</packageVersion.package>
+    <jackson.core.version>2.6.5</jackson.core.version>
+    <jackson.annotation.version>2.6.0</jackson.annotation.version>
+    <osgi.export>com.fasterxml.jackson.module.afterburner,
+com.fasterxml.jackson.module.afterburner.deser,
+com.fasterxml.jackson.module.afterburner.ser,
+com.fasterxml.jackson.module.afterburner.util</osgi.export>
+  </properties>
+</project>
+
