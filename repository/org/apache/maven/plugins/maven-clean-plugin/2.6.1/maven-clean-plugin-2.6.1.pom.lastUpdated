@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 22 15:45:54 CST 2019
+http\://jcenter.bintray.com/.lastUpdated=1566459954402
+http\://oss.jfrog.org/artifactory/oss-snapshot-local/.error=Could not transfer artifact org.apache.maven.plugins\:maven-clean-plugin\:pom\:2.6.1 from/to jcenter-snapshots (http\://oss.jfrog.org/artifactory/oss-snapshot-local/)\: Failed to transfer http\://oss.jfrog.org/artifactory/oss-snapshot-local/org/apache/maven/plugins/maven-clean-plugin/2.6.1/maven-clean-plugin-2.6.1.pom. Error code 409, 
+@default-jcenter-snapshots-http\://oss.jfrog.org/artifactory/oss-snapshot-local/.lastUpdated=1566459952418
