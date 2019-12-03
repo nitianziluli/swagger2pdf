@@ -216,6 +216,7 @@
                     <config>
                         <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
                         <swagger2markup.pathsGroupedBy>TAGS</swagger2markup.pathsGroupedBy>
+                        <swagger2markup.outputLanguage>ZH</swagger2markup.outputLanguage>
                         <!-- 生成请求和响应的样例json -->
                         <!-- <swagger2markup.generatedExamplesEnabled>true</swagger2markup.generatedExamplesEnabled> -->
 
